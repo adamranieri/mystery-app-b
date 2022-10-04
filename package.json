@@ -1,0 +1,16 @@
+{
+  "name": "mystery-app-b",
+  "version": "1.0.0",
+  "description": "node JS version of mystery app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Adam Ranieri",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^9.0.0"
+  }
+}
