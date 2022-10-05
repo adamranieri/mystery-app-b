@@ -31,7 +31,7 @@ app.put("/notes/:index", (req,res)=>{
 
 app.delete("/notes/:index", (req,res)=>{
     const index = Number(req.params.index);
-    notes[index] = null;
+    notes.splice(index,1)
     res.status(204).send("");
 });
 
